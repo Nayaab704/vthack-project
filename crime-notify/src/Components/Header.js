@@ -8,9 +8,9 @@ function Header() {
     <>
         <nav className='navbar'>
             <div className='navbar-container'>
-                <Link to="/" className="navbar-accountpage">
-                    <img src={profilePic} />
-                </Link>
+                {/* <Link to="/" className="navbar-accountpage">
+                    <img src={profilePic} className='navbar-accountimage' alt=''/>
+                </Link> */}
             </div>
         </nav>
     </>
