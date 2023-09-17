@@ -79,7 +79,7 @@ function Map() {
   // Render on website
   return (
     <div className='mapBackground' >
-        <h1>Distance Between You and Locaiton of Reported Crime</h1>
+        <h1>Distance Between You and Location of Reported Crime</h1>
 
 
         { distance >= 16.0934 ?
