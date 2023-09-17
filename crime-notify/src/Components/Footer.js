@@ -2,8 +2,8 @@ import '../App.css';
 
 function Footer() {
   return (
-    <div>
-        <h1>Footer Text</h1>
+    <div className='footer'>
+        <h1>Contact Us At...</h1>
     </div>
   );
 }

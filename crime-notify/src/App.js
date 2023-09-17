@@ -1,17 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
-import Sidebar from './Components/Sidebar';
 import Footer from './Components/Footer';
 import Map from './Components/Map';
 import Header from './Components/Header';
 
 function App() {
   return (
+  //   <div className="App">
+  //   <Router>
+  //   <Navbar bg="dark" data-bs-theme="dark">
+  //     <Container>
+  //       <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+  //       <Nav className="me-auto">
+  //         <Route>
+  //         <Nav.Link ><Link>Home</Link></Nav.Link>
+  //         </Route>
+  //       </Nav>
+  //     </Container>
+  //   </Navbar>
+   
+  //  <Map></Map>
+
+  //   </Router>
+  // </div>
+
+
     <div className="App">
       <Header></Header>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
       <Sidebar></Sidebar>
       <Map></Map>
       <Footer></Footer>
