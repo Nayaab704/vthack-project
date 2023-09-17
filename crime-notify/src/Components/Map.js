@@ -73,6 +73,7 @@ function Map() {
     return c * r;
     
   };
+  console.log("lat: " + location.lat + "long: " + location.long)
 
   let distance = calcDistance(location.lat, crimeLocation.lat, location.long, crimeLocation.long);
 

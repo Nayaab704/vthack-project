@@ -26,7 +26,7 @@ function App() {
 
     <div className="App">
       <Header></Header>
-      <Sidebar></Sidebar>
+      {/* <Sidebar></Sidebar> */}
       <Map></Map>
       <Footer></Footer>
     </div>
