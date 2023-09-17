@@ -2,6 +2,7 @@ import './App.css';
 import Footer from './Components/Footer';
 import Map from './Components/Map';
 import Header from './Components/Header';
+import {Link,Route, BrowserRouter as Router} from 'react-router-dom';
 
 function App() {
   return (
@@ -25,10 +26,11 @@ function App() {
 
 
     <div className="App">
+      <Router>
       <Header></Header>
-      {/* <Sidebar></Sidebar> */}
       <Map></Map>
       <Footer></Footer>
+      </Router>
     </div>
   );
 }

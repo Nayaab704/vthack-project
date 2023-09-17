@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+.h2{
+ text-align: center;
+ margin-top: 100px;
+}
 
 .map-container {
   height: 70vh;
@@ -9,12 +13,12 @@
 }
 
 .mapBackground {
-  background-color: #282c34;
+  background-color: #c4ccdd;
 }
 
 .navbar {
   height: 15vh;
-  background-color: #342A28;
+  background-color: #a5a4ba;
 }
 
 .footer {
